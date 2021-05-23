@@ -16,36 +16,36 @@
 
 ## 👋🏻 Walkthrough
 
-1. Install django and Requests
+1. Install all of the dependencies
  
-```sh
-pip install -r requirements.txt
+```
+npm install
 ```
 
-2. Fill the details in
+2. Run Next.js application and Open browser at localhost:3000
   
 ```
-main_app/mail.py
-mysite/settings.py
+npm run dev
 ```
 
-3. Run the website by following command in the terminal
+3. Run Node API server run in new terminal window (servers has to run at the same time), it will run server at localhost:3001
 
-```sh
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+```
+npm run server
+```
+
+4. create .env file in root folder with values of:
+```
+GOOGLE_USER=YOUR_GOOGLE_EMAIL // e.g test@gmail.com
+GOOGLE_PASSWORD=YOUR_GOOGLE_PASSWORD // testtest
+DOMAIN=YOUR_DOMAIN // e.g http://localhost:3000
+
 ```
  
-## ⚙Tech-Tools
-<b> Frontend :</b>
+## ⚙ Technology Stacks
 
-  <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>   <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>    <img src="https://img.shields.io/badge/bootstrap%20-%234f0599.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
-<b> Backend :</b>
-
-  <img src="https://img.shields.io/badge/django%20-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/>   <img src="https://img.shields.io/badge/Reactjs-%231572B6.svg?&style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/javascript%20-%23092E20.svg?&style=for-the-badge&logo=javascript&logoColor=yellow"/>   <img src="https://img.shields.io/badge/Reactjs-%231572B6.svg?&style=for-the-badge&logo=react&logoColor=white"/>   <img src="https://img.shields.io/badge/nodejs%20-%234f0599.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>   
   
 <br>
   
