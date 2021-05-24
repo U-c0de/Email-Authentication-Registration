@@ -8,7 +8,7 @@
   <h1 align="center"><b>(Email Register-Authentication)</b></h1>
 
   <p align="center">
-    <i><b> Register in the given website through Email-id & password then authenticate the respective Email </b></i> 
+    <i><b> Register in the given website through the Email-id & password then authenticate the respective Email </b></i> 
     <br />
   </p>
 </p>
@@ -16,19 +16,19 @@
 
 ## 👋🏻 Walkthrough
 
-1. Install all of the dependencies
+1. Install all of the dependencies.
  
 ```
 npm install
 ```
 
-2. Run Next.js application and Open browser at localhost:3000
+2. Run Next.js application and Open browser at localhost:3000.
   
 ```
 npm run dev
 ```
 
-3. Run Node API server run in new terminal window (servers has to run at the same time), it will run server at localhost:3001
+3. Run Node API server run in new terminal window (servers has to run at the same time), it will run server at localhost:3001.
 
 ```
 npm run server
