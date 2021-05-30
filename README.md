@@ -1,4 +1,4 @@
-# Email-Authentication-(Site Registration)📩
+# Email-Authentication-(Site Registration) 📩
 <br>
 <p align="center">
   <a >
